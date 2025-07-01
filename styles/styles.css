@@ -55,7 +55,7 @@ nav ul li a:hover {
 }
 
 /* Body of the index page */
-#hero {
+#text {
     height: 700px;
     padding-top: 75px;
     background-image:url("../images/hero-img.png");
@@ -67,7 +67,7 @@ nav ul li a:hover {
     background-color: rgba(30, 32, 69, 0.5);
     background-blend-mode: soft-light;
 }
-#hero h1 {
+#text h1 {
     font-size: 3.5em;
     letter-spacing: 0.07em;
     margin-top: 0;
@@ -75,7 +75,7 @@ nav ul li a:hover {
     color: var(--tertiary);
     text-shadow: 1px 1px 5px black;
 }
-#hero p {
+#text p {
     max-width: 30%;
     margin: 0 auto;
     text-shadow: 1px 1px 3px black;
