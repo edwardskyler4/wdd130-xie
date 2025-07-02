@@ -1,90 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beginner's Universe</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <style>
-          body {
-    font-family: Arial, sans-serif;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-    background-color: #0B0C2A;
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginner's Universe</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      background-color: #0B0C2A;
+    }
 
-  .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 40px auto 20px;
-    padding: 0 20px;
-  }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      max-width: 1000px;
+      margin: 40px auto 20px;
+      padding: 0 20px;
+    }
 
-  .hero img {
-    max-width: 500px;
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 5px rgba(255, 211, 105, 0.7);
-    transition: box-shadow 0.3s ease-in-out;
-  }
-  .hero img:hover {
-  box-shadow: 0 0 40px 10px rgba(255, 211, 105, 1);
-  transform: scale(1.05);
-}
+    .hero img {
+      max-width: 500px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px 5px rgba(255, 211, 105, 0.7);
+      transition: box-shadow 0.3s ease-in-out;
+    }
 
-  .text-box {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    font-size: 21px;
-    line-height: 1.5;
-    color: #fff;
-  }
+    .hero img:hover {
+      box-shadow: 0 0 40px 10px rgba(255, 211, 105, 1);
+      transform: scale(1.05);
+    }
 
-  .text-box h1 {
-    font-family: Georgia, serif;
-    font-size: 28px;
-    color: #FFD369;
-    margin-top: 0;
-  }
+    .text-box {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      font-size: 21px;
+      line-height: 1.5;
+      color: #fff;
+    }
 
-  .content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 23px;
-    line-height: 1.6;
-    color: #fff;
-  }
-</style>
+    .text-box h1 {
+      font-family: Georgia, serif;
+      font-size: 28px;
+      color: #FFD369;
+      margin-top: 0;
+    }
 
-  .content p {
-    margin-bottom: 1.5em;
-  }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 23px;
+      line-height: 1.6;
+      color: #fff;
+    }
+
+    .content p {
+      margin-bottom: 1.5em;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html"><img href="./images/logo.png" alt="Beginner's Universe Logo"></a></li>
-                <li><a href="./index.html"><p>Home</p></a></li>
-                <li><a href="./planets.html"><p>The Planets</p></a></li>
-                <li><a href="./milky-way.html"><p>The Milky Way</p></a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html"><img src="images/logo.png" alt="Beginner's Universe Logo"></a></li>
+        <li><a href="index.html"><p>Home</p></a></li>
+        <li><a href="planets.html"><p>The Planets</p></a></li>
+        <li><a href="milky-way.html"><p>The Milky Way</p></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <body>
-    <section id="hero">
-        <img src="images/milky-way.png" alt="Milky Way Galaxy" />
+  <section class="hero">
+    <img src="images/milky-way.png" alt="Milky Way Galaxy" />
     <div class="text-box">
       <h1>What Is the Milky Way?</h1>
       <p>The Milky Way is the name of the galaxy we live in. A galaxy is a huge group of stars, planets, gas, dust, and dark matter held together by gravity. The Milky Way has over 100 billion stars—including our sun! It is shaped like a spiral, with long curved arms stretching out from the center.</p>
@@ -97,33 +97,32 @@
     <p>There are many types of galaxies—spiral, elliptical, and irregular—but the Milky Way is our home. Learning about it helps us understand how stars are born, how planets form, and how huge the universe really is.</p>
     <p>Even though we live on a small planet in a huge galaxy, we are part of something beautiful and amazing. And there’s still so much more to discover.</p>
   </section>
-    </body>
 
-    <footer>
-        <div class="copyright">&copy; Linling 2025</div>
-
-        <form>
-            <fieldset>
-                <legend><p>Contact Me</p></legend>
-                
-                <div id="border">
-                <div>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Abby Smith"></div>
-
-                <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="abby.smith@gmail.com"></div>
-
-                <div>
-                <label for="message">Message</label>
-                <input type="text" name="message" id="message" placeholder="Write whatever you'd like to say to me here!"></div></div>
-
-                <div>
-                <input type="submit" value="Submit">
-                </div>
-            </fieldset>
-        </form>
-    </footer>
+  <footer>
+    <div class="copyright">&copy; Linling 2025</div>
+    <form>
+      <fieldset>
+        <legend><p>Contact Me</p></legend>
+        <div id="border">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Abby Smith">
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="abby.smith@gmail.com">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message" placeholder="Write whatever you'd like to say to me here!">
+          </div>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </fieldset>
+    </form>
+  </footer>
 </body>
 </html>
+
