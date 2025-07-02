@@ -83,6 +83,19 @@ nav ul li a:hover {
 
 /* Footer */
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
     background-color: var(--primary);
     color: aliceblue;
+}
+.copyright {
+    justify-self: center;
+    align-self: center;
+}
+footer fieldset {
+    border: none;
+}
+footer p {
+    text-align: center;
 }
