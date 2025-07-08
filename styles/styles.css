@@ -59,7 +59,6 @@ nav ul li a:hover {
 
 /* Body of the index page */
 #text {
-    /* height: 700px; */
     height: auto;
     padding-top: 75px;
     background-image:url("../images/hero-img.png");
