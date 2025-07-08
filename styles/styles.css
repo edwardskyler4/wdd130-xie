@@ -174,7 +174,7 @@ input[type=submit] {
       align-items: flex-start;
       text-align: left;
       font-size: 21px;
-      line-height: 1.5;
+      line-height: 1.7;
       color: #fff;
     }
 
@@ -183,6 +183,8 @@ input[type=submit] {
       font-size: 28px;
       color: #FFD369;
       margin-top: 0;
+    margin-bottom: 1px;
+    
     }
 
     .content {
@@ -191,7 +193,7 @@ input[type=submit] {
       padding: 30px 20px;
       text-align: center;
       font-size: 23px;
-      line-height: 1.6;
+      line-height: 1.7;
       color: #fff;
     }
 
